@@ -97,6 +97,9 @@ function reducer(state, { type, payload }) {
   }
 }
 
+//todo: reteredsmcmf;lflvmm
+
+
 function evaluate({ currentOperand, previousOperand, operation }) {
   const prev = parseFloat(previousOperand);
   const current = parseFloat(currentOperand);
